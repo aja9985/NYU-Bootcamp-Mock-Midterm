@@ -1,11 +1,11 @@
 # NYU Midterm
-Introduction:
 
+# Introduction:
 We are exploring how housing affordability and property characteristics vary across New York City properties. Our goal is to understand which areas are experiencing the fastest growth, how specific property features affect prices, and how proximity to amenities influences property values. Using publicly available datasets, our analysis compares property-level housing data to identify key patterns and trends in the NYC real estate market.
 
+# Analysis:
 
-Analysis of the data:
-
+# Part A:
 As home values increase throughout the country, an individual might be curious as to how their local home values are changing. Thus, with our project, we want to lay out graphs and tables that present which neighborhoods in New York City have seen the most changes in home values and what factors are influencing these prices.
 
 The first question of our project addresses the basic question first: which neighborhood has seen the most dramatic changes in home prices? From the csv file obtained via Zillow, it lays out every neighborhood in the country and their average home values each month of the year. To focus on neighborhoods solely in New York City, we filtered out the data so that it only displays information from New York City. 
@@ -20,7 +20,7 @@ Average Home Price Per Year in NYC Neighborhoods: This graph shows the actual av
 
 Average Home Price Change Per Year in NYC Neighborhoods: This graph shows the percentage change in the average home price from the previous year. This highlights the rate of growth or decline. For example, a 10% change means the average price increased by 10% compared to the year before, while a -3% change means it decreased by 3%. This graph is useful for understanding the volatility and speed of market changes.
 
-Property Characteristics and Average Sale Prices
+# Part B: Property Characteristics and Average Sale Prices
 
 The bar graph above shows that the average sale price will be greater for buildings with one residential unit or with five or more residential units. The average sale price is the least greatest in buildings with four residential units.
 According to the scatterplot, while there are some data points that represent a positive relationship between the two variables, as they show that buildings with a smaller gross square feet have a smaller average sale price, the rest of the data does not show a strong trend and relationship between a building's gross square feet and sale price.
@@ -28,14 +28,7 @@ The bar graph shows that the average sale price is greatest for luxury hotels an
 The bar graph above shows that the average sale price will be greatest with commercial buildings and is the lowest in residential buildings.
 The scatterplot shows that residential buildings with 0 residential units and smaller gross square feet are similarly priced with residential buildings with 200-400 residential units and greater gross square feet. It also shows a positive relationship between the building's gross square feet and number of residential units, with the buildings with 400 residential units having a greater gross square feet.
 
-
-
-
-
-
-
-
-Proximity to Amenities and Property Prices
+# Part C: Proximity to Amenities and Property Prices
 
 This section of the project focuses on understanding how proximity to key amenities, specifically subway stations and parks, affects property prices across New York City. The goal was to see whether being closer to a subway or a park is associated with higher home values and to explore how the type of park (waterfront vs. non-waterfront) influences prices.
 
@@ -49,16 +42,5 @@ This finding was particularly interesting because one might expect waterfront ar
 
 Overall, the analysis highlights that while proximity to amenities like subways and parks plays a role in property pricing, the strength of this relationship varies. Accessibility to a park appears to have a stronger association with higher property values than subway proximity does. These results suggest that open green spaces contribute more to housing desirability in NYC’s dense urban environment, though further research with larger or more balanced data could provide additional insight.
 
-
-
-
-Conclusion:
-Our analysis shows that New York City properties are shaped by both physical property characteristics and the surrounding environment.
-Housing prices change depending on the neighborhood, and their values also grow or decrease depending on that. For instance, 
-Certain characteristics within various properties command higher listing prices. While the number of residential units and building type in a property play significant roles in property valuation, other features, such as gross square footage, do not show a strong correlation. 
-
-Proximity to amenities, like the distance to subways and parks, can also have an effect on property prices in New York City. While subway proximity has little impact, homes near parks, particularly non-waterfront parks, tend to be significantly more valuable.
-
-
-Together, these findings highlight that neighborhood growth, property features, and proximity to various amenities interact together to determine housing prices within New York City.
-
+# Conclusion:
+Our analysis shows that New York City properties are shaped by both physical property characteristics and the surrounding environment. Housing prices change depending on the neighborhood, and their values also grow or decrease depending on that, conveying that the neighborhood one resides in plays a role in house value. Certain characteristics within various properties command higher listing prices. While the number of residential units and building type in a property play significant roles in property valuation, other features, such as gross square footage, do not show a strong correlation. Proximity to amenities, like the distance to subways and parks, can also have an effect on property prices in New York City. While subway proximity has little impact, homes near parks, particularly non-waterfront parks, tend to be significantly more valuable. Together, these findings highlight that neighborhood growth, property features, and proximity to various amenities interact to determine housing prices within New York City.
